@@ -231,30 +231,20 @@ git checkout master
 Report your experience of submitting the Part 2. Please, include the steps you followed, the commands you used, and the hurdles you faced (within the file you created for the **Part 1**).
 
 ```
+I first forked the class repo on the GitHub website. 
+From my forked repo, I copied the repo's https: url on the GitHub website.
+From the terminal, I used "git clone https:...." to clone the repo on my local machine.
+Then I created a .md file inside my local repo folder.
+Then I edited the .md file (to add the information about a paper I recently read) using an IDE.
+From the terminal, I used "git add --a" to stage all the changed files in my repo folder.
+Then I used "git commit -a - "some message"" to commit all my staged files.
+Then I used "git push" to push my commit to my remote repo.
+Then I went to the GitHub website and created a pull request from my forked repo to the main class repo.
 
+I did not have any issues completing this part of the assignment!
 
 ```
 
 
 ## Part 2: Using GitHub
-
-To complete this submission, follow these steps:
-
-1. Fork the course repository (available [here](https://github.com/chavesana/INF502-Fall22)).
-
-2. Into the students folder, create a markdown file called LASTNAME_FIRSTNAME.md (please change LASTNAME_FIRSTNAME for your actual last and first names). 
-
-3. Use markdown to write a report of the last paper you've read. You can structure your markdown the way you want, but the following information must be there:
-- Title
-- Venue (journal name/conference)
-- Number of pages
-- Three outcomes of the paper
-- Link to the paper online
-
-4. Commit your file and push to your own GitHub repository (INF502).
-
-5. Create a pull request to the course repository. Your pull request needs to appear [here](https://github.com/chavesana/INF502-Fall22/pulls).
-
-6. Go back to Part 1 and answer the question 13 based on your experience in solving Part 2.
-
-Your Part 2 submission is complete when your pull request is listed in the link above.
+(see my pull request)
