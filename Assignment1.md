@@ -115,31 +115,41 @@ It looks like the math branch has diverged from the master branch on the 3rd com
 ```
 
 **Question 3:**
+
 3. Use `git diff BRANCH_NAME` to view the differences from a branch and the current branch. Summarize the difference from master to the other branch.
 
-```
+On the master branch, there is a shorter version of the calculate_this() function in the A.py file and a sigle line of commented out text in the B.py file. On the math branch, the calculate_this() function is longer with more going on (in the A.py file) and there is nothing in the B.py file.
 
-
-```
 
 **Question 4:**
+
 4. Write a command sequence to merge the non-master branch into `master`.
 
 ```
+# get onto the master branch 
+git checkout master
 
+# merge the other branch to the master branch
+git merge math
 
 ```
 
 
 **Question 5:**
+
 5. Write a command (or sequence) to (i) create a new branch called `math` (from the `master`) and (ii) change to this branch.
 
 ```
+# create a new branch called math
+git branch math
 
+# switch to work on the newly made math branch
+git checkout math
 
 ```
    
 **Question 6:**
+
 6. Edit B.py adding the following source code below the content you have there.
 ```
 print 'I know math, look:'
@@ -147,57 +157,86 @@ print 2+2
 ```
 
 **Question 7:**
+
 7. Write a command (or sequence) to commit your changes.
 ```
+# check the status of your repo to see if there any changes that need to be committed
+git status
+
+# stage the files that have changes that need to be committed
+# here let's just add all of the changed files
+git add --a
+
+# commit the stages files
+# here let's just commit all the staged files
+git commit -a -m "Commiting some changes"
 
 
 ```
 
 **Question 8:**
+
 8. Change back to the `master` branch and change B.py adding the following source code (commit your change to `master`):
 ```
 print 'hello world!'
 ```
 
 **Question 9:**
+
 9. Write a command sequence to merge the `math` branch into `master` and describe what happened.
 ```
+# get onto the master branch if you aren't already
+git checkout master
 
+# merge the math branch onto the master
+# git merge math
 
 ```
+When I try to merge `math` branch into `master`.....
+
    
 **Question 10:**
+
 10. Write a set of commands to abort the merge.
 ```
-
+# abort the merge
+git merge --abort
 
 ```
    
 **Question 11:**
+
 11. Now repeat item 9, but proceed with the manual merge (editing B.py). All implemented methods are needed. Explain your procedure.
+
 ```
 
 
 ```
 
 **Question 12:**
+
 12. Write a command (or set of commands) to proceed with the merge and make `master` branch up-to-date.
 ```
+# get onto the master branch if you aren't already
+git checkout master
 
+# merge the math branch onto the master
+# git merge math
 
 ```
 
 **Question 13:**
+
 13. Complete Part 2. Then, come back here and answer the following:
 Report your experience of submitting the Part 2. Please, include the steps you followed, the commands you used, and the hurdles you faced (within the file you created for the **Part 1**).
-```
-
 
 ```
 
-### Part 2: Using GitHub
 
-The goal of this assignment is to put you in touch with the fork-pull request process, with an extra of dealing a little bit with Markdown. To learn more about Markdown [click here](https://guides.github.com/features/mastering-markdown/).
+```
+
+
+## Part 2: Using GitHub
 
 To complete this submission, follow these steps:
 
