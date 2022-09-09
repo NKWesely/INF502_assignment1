@@ -11,8 +11,6 @@
 1. List all the branches in this repository and, for each branch, list the commits.
 
     - Use `git branch` to list the branches in this repository.
-        - master
-        - math
     - Use `git checkout` to explore each branch.
     - Use `git log --decorate` to explore the structure of commits.
 
