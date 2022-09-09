@@ -1,12 +1,10 @@
 # INF 502 Git/GitHub Assignment
 
 **Natasha Wesely**
+
 **Sept 13, 2022**
 
 ## Part 1: Dealing with git
-
-
-Then, follow these steps:
 
 **Question 1:**
 1. List all the branches in this repository and, for each branch, list the commits.
@@ -60,7 +58,13 @@ Then, follow these steps:
 **Question 2:**
 2. Try `git log --graph --all` to see the commit tree. Paste the result here and write a paragraph to provide an interpretation of what you found.
 ```
-It looks like the math branch has diverged from the master branch on the 3rd commit (e3c629...) when the user was "Adding some more knowledge to the function."
+It looks like the math branch has diverged from the master branch on the 3rd commit (e3c629...) 
+
+when the user was "Adding some more knowledge to the function."
+
+Now the master branch is one commit ahead of the math branch ("Making
+
+small change here"). 
 
 
 * commit 18931d12a8be7cac049b73c6bc8136e9482f3371 (master)
