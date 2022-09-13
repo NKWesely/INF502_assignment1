@@ -190,8 +190,13 @@ git checkout master
 # git merge math
 
 ```
-When I try to merge `math` branch into `master`.....
+When I try to merge `math` branch into `master`, I get a conflict error which causes the merge to fail.
 
+```
+Auto-merging B.py
+CONFLICT (content): Merge conflict in B.py
+Automatic merge failed; fix conflicts and then commit the result.
+```
    
 **Question 10:**
 
@@ -199,7 +204,6 @@ When I try to merge `math` branch into `master`.....
 ```
 # abort the merge
 git merge --abort
-
 ```
    
 **Question 11:**
@@ -207,7 +211,11 @@ git merge --abort
 11. Now repeat item 9, but proceed with the manual merge (editing B.py). All implemented methods are needed. Explain your procedure.
 
 ```
-
+# I first copied everything in the B.py on the master branch.
+# Then I switched to the math branch with git checkout math
+# Then I pasted everything I copied into the B.py file on the math branch
+# Then I switched back to the master branch with git checkout master
+# Then I merged the math branch onto the master branch with git merge math 
 
 ```
 
