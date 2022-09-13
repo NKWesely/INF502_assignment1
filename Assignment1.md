@@ -212,10 +212,13 @@ git merge --abort
 
 ```
 # I first copied everything in the B.py on the master branch.
-# Then I switched to the math branch with git checkout math
+# Then I switched to the math branch with 
+git checkout math
 # Then I pasted everything I copied into the B.py file on the math branch
-# Then I switched back to the master branch with git checkout master
-# Then I merged the math branch onto the master branch with git merge math 
+# Then I switched back to the master branch with 
+git checkout master
+# Then I merged the math branch onto the master branch with 
+git merge math 
 
 ```
 
