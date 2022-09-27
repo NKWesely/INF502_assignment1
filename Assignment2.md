@@ -46,8 +46,7 @@ pythagoreanTheorem(9,9)
 
 *The function assumes that list_in is a list of integers, and returns a new list containing transformed elements of list_in. If the element is even, it's doubled. If the element is odd, it's tripled.*
 
-```
-
+```python
 def list_mangler(list_in):
     list_out = [] # create an empty list for the output
     for i in list_in: # for each element in list_in
@@ -79,7 +78,7 @@ list_mangler([1,9,6,14,21])
 
 *The function accepts a list grades_in containing integer grades, drops the to_drop lowest grades (so, for to_drop equal to 2, the function should drop the 2 lowest grades), calculates the average of the grades left, and returns the letter grade this average corresponds to according to the letter grade scale for this course.*
 
-```
+```python
 # import needed modules
 import statistics as st
 
@@ -121,7 +120,7 @@ grade_calc(grades_in=grades, to_drop=10)
 
 *The function accepts an input list of integers and returns a list with two sublists. The first sublist contains all even numbers in the input list and the second sublist contains all odd numbers.*
 
-```
+```python
 def odd_even_filter(numbers):
     even_list = [] #create an empty list for the even values
     odd_list = [] #create an empty list for the odd values
