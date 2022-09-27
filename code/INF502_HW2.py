@@ -17,8 +17,10 @@ def pythagoreanTheorem(length_a, length_b):
 
 #Example Run 1
 pythagoreanTheorem(1,2)
+
 #Example Run 2
 pythagoreanTheorem(3,4)
+
 #Example Run 3
 pythagoreanTheorem(9,9)
 
@@ -37,8 +39,10 @@ def list_mangler(list_in):
 
 #Example Run 1
 list_mangler([2,4,6]) 
+
 #Example Run 2
 list_mangler([1,3,5])
+
 #Example Run 3
 list_mangler([1,9,6,14,21])
 
@@ -88,7 +92,9 @@ def odd_even_filter(numbers):
 
 #Example Run 1
 odd_even_filter(numbers= [6,7,8,9,10])
+
 #Example Run 2
 odd_even_filter(numbers= [5,7,2,2,4,6])
+
 #Example Run 3
 odd_even_filter(numbers= [7,7,7,7,7,7])
