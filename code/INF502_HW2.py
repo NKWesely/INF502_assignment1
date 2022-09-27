@@ -1,13 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 INF 502 HW 2
-Created on Tue Sep  7 14:54:05 2021
 @author: Natasha Wesely
 """
 import math
 import statistics as st
-import pandas as pd
-import numpy as np
 
 #%% Question 1
 #Write a function with the following signature: pythagoreanTheorem(length_a,length_b).
@@ -95,8 +92,3 @@ odd_even_filter(numbers= [6,7,8,9,10])
 odd_even_filter(numbers= [5,7,2,2,4,6])
 #Example Run 3
 odd_even_filter(numbers= [7,7,7,7,7,7])
-
-#Example Run 3
-odd_even_filter(numbers= [7,7,7,7,7,7])
-        
-
