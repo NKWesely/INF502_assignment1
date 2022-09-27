@@ -4,6 +4,10 @@
 
 **Sept 29, 2022**
 
+Here's my link to my python file.
+[Natasha's HW2 python code](code/INF502_HW2.py)
+
+
 ## Question 1
 
 *1. Write a function with the following signature: pythagoreanTheorem(length_a, length_b).*
@@ -22,13 +26,15 @@ def pythagoreanTheorem(length_a, length_b):
 
 #Example Run 1
 pythagoreanTheorem(1,2)
+1.7320508075688772
 
 #Example Run 2
 pythagoreanTheorem(3,4)
+2.6457513110645907
 
 #Example Run 3
 pythagoreanTheorem(9,9)
-
+4.69041575982343
 
 ```
 
