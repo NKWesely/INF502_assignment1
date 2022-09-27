@@ -15,7 +15,7 @@ Here's my link to my python file.
 
 *The function returns the length of the hypotenuse assuming that length_a and length_b are the lengths of the two legs of a right triangle (the legs that form the triangle's right angle). Hint: the math module might have useful functions to use.*
 
-```
+```python
 # import the required modules
 import math
 
@@ -36,7 +36,6 @@ pythagoreanTheorem(3,4)
 #Example Run 3
 pythagoreanTheorem(9,9)
 4.69041575982343
-
 ```
 
 **Solution Approach Description:** I created a function that takes the arguments "length_a" and "length_b". The two lengths are squared individually, then added together. Then the square root of that value is taken, which is caluclated using the sqrt() function from the math module. The function then returns the square root as the hypotenuse.
@@ -69,7 +68,6 @@ list_mangler([1,3,5])
 #Example Run 3
 list_mangler([1,9,6,14,21])
 [3, 27, 12, 28, 63]
-
 ```
 
 **Solution Approach Description:** I first created an empty list (“list_out”) that I could add elements to after performing the operations to the input elements. Then I created a for loop within my function that went through each element in the input list (“list_in”) and differentiated between odd and even numbers. If the element is divisible by 2 with a remainder of 0 (“if (i % 2) == 0”), then the element is even, and it gets doubled and then appended to the output list. If the element does not meet the conditional statement in the if clause, then it’s an odd number and it gets tripled and then appended to the output list. Finally, the function returns the output list.
@@ -113,7 +111,6 @@ grade_calc(grades_in=[40,55,70,56,90,65,89])
 grades= list(range(20,90))
 grade_calc(grades_in=grades, to_drop=10)
 'F'
-
 ```
 
 **Solution Approach Description:** I created a for loop inside my function that goes through each element in the input list (“grades_in”). First the elements are sorted from lowest to highest. Then values are deleted from the sorted list based on how many grades need to be dropped (“to_drop”). Elements are deleted from index 0 to index “to_drop” (i.e., if to_drop=2, then the lowest two elements in the sorted list are deleted). Then the remaining elements in the sorted list are averaged. Then I have a series of if statements that evaluate the grade average and return the corresponding letter grade (i.e., if the average grade is >= 90% , the letter grade “A” is returned).
@@ -143,10 +140,11 @@ odd_even_filter(numbers= [6,7,8,9,10])
 
 #Example Run 2
 odd_even_filter(numbers= [5,7,2,2,4,6])
+[[2, 2, 4, 6], [5, 7]]
 
 #Example Run 3
 odd_even_filter(numbers= [7,7,7,7,7,7])
-
+[[], [7, 7, 7, 7, 7, 7]]
 ```
 
 **Solution Approach Description:** First I created two empty lists, one for even numbers (“even_list”) and one for odd numbers (“odd_list”). Then I created a for loop that goes through each element in the input list (“numbers”). Within the for loop are two if statements. If the element is divisible by 2 with a remainder of 0 (“if (i % 2) == 0”), then the element is even, and it gets appended to the even_list. If the element does not meet the conditional statement in the if clause, then it’s an odd number and it gets appended to the odd_list. Then I created another list (“printlist”) that is a list of the even_list and odd_list. Finally, the “printlist” is returned.
