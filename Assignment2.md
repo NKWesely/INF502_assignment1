@@ -60,12 +60,15 @@ def list_mangler(list_in):
 
 #Example Run 1
 list_mangler([2,4,6]) 
+[4, 8, 12]
 
 #Example Run 2
 list_mangler([1,3,5])
+[3, 9, 15]
 
 #Example Run 3
 list_mangler([1,9,6,14,21])
+[3, 27, 12, 28, 63]
 
 ```
 
@@ -100,13 +103,16 @@ def grade_calc(grades_in, to_drop=2):
 
 #Example Run 1
 grade_calc(grades_in=[90,95,98,100], to_drop=1)
+'A'
 
 #Example Run 2 using default to_drop=2
 grade_calc(grades_in=[40,55,70,56,90,65,89])
+'D'
 
 #Example Run 3
 grades= list(range(20,90))
 grade_calc(grades_in=grades, to_drop=10)
+'F'
 
 ```
 
@@ -133,6 +139,7 @@ def odd_even_filter(numbers):
 
 #Example Run 1
 odd_even_filter(numbers= [6,7,8,9,10])
+[[6, 8, 10], [7, 9]]
 
 #Example Run 2
 odd_even_filter(numbers= [5,7,2,2,4,6])
